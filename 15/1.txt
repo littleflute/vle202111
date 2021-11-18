@@ -1,0 +1,220 @@
+[2021-11-16 21:07:18.480] [file_logger] [debug] BTC:[ByteBenchInput.cpp:init:34] run mode is:  2
+[2021-11-16 21:07:18.482] [file_logger] [debug] BTC:[CollectionByteBench.cpp:init:15] collection bytebench init.....
+[2021-11-16 21:07:18.482] [file_logger] [debug] BTC:[ByteBenchContext.cpp:setCollectionContext:9] set collection context.......
+[2021-11-16 21:07:18.482] [file_logger] [info] BTC:[ByteBenchInput.cpp:dealClientModeRunCmd:204] deal run cmd:ip=127.0.0.1&port=7263&workspace=C:\Users\13699\AppData\Local\JianyingPro\User
+
+[2021-11-16 21:07:18.482] [file_logger] [info] BTC:[ByteBenchInput.cpp:dealClientModeRunCmd:222] parse ip:127.0.0.1, port:7263
+[2021-11-16 21:07:18.482] [file_logger] [info] BTC:[BTCEngineController.cpp:startClient:30] startClient severip:127.0.0.1 port:7263
+[2021-11-16 21:07:18.484] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:82] client send msg all size: 19
+[2021-11-16 21:07:18.484] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:89] client send ret 19
+[2021-11-16 21:07:18.487] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:161] data length: 578
+[2021-11-16 21:07:18.487] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:165] first result str: id=lv_win_3_memory_copy&data={
+	"base_task_key":	"memory_copy",
+	"version":	8,
+	"base_task_version":	2,
+	"id":	212,
+	"key":	"lv_win_3_memory_copy",
+	"param":	{
+		"file":	"691a8b4301c04ed231ec1c39a522f76c.png",
+		"inner_times":	20,
+		"times":	5,
+		"when":	1
+	},
+	"extra_param":	{
+		"localfile":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\691a8b4301c04ed231ec1c39a522f76c.png",
+		"workspace":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\"
+	},
+	"result_key_list":	["message", "cost_time", "ret"],
+	"result":	{
+	}
+}
+[2021-11-16 21:07:18.487] [file_logger] [debug] BTC:[IPCClient.cpp:receiveHandle:96]  client receive msg size: 578
+[2021-11-16 21:07:18.487] [file_logger] [debug] BTC:[BTCEngineController.cpp:customEvent:111] BTCEngineController customEvent msg size: 578
+[2021-11-16 21:07:18.487] [file_logger] [info] BTC:[BTCEngineController.cpp:runTask:56] run task: lv_win_3_memory_copy
+[2021-11-16 21:07:18.574] [file_logger] [debug] BTC:[CollectionManger.cpp:runTask:137] task run over
+[2021-11-16 21:07:18.574] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:82] client send msg all size: 630
+[2021-11-16 21:07:18.574] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:89] client send ret 630
+[2021-11-16 21:07:18.574] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:161] data length: 578
+[2021-11-16 21:07:18.574] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:165] first result str: id=lv_win_3_decodeImage&data={
+	"base_task_key":	"decodeImage",
+	"version":	8,
+	"base_task_version":	2,
+	"id":	210,
+	"key":	"lv_win_3_decodeImage",
+	"param":	{
+		"file":	"691a8b4301c04ed231ec1c39a522f76c.png",
+		"inner_times":	20,
+		"times":	5,
+		"when":	1
+	},
+	"extra_param":	{
+		"localfile":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\691a8b4301c04ed231ec1c39a522f76c.png",
+		"workspace":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\"
+	},
+	"result_key_list":	["message", "cost_time", "ret"],
+	"result":	{
+	}
+}
+[2021-11-16 21:07:18.574] [file_logger] [debug] BTC:[IPCClient.cpp:receiveHandle:96]  client receive msg size: 578
+[2021-11-16 21:07:18.574] [file_logger] [debug] BTC:[BTCEngineController.cpp:customEvent:111] BTCEngineController customEvent msg size: 578
+[2021-11-16 21:07:18.574] [file_logger] [info] BTC:[BTCEngineController.cpp:runTask:56] run task: lv_win_3_decodeImage
+[2021-11-16 21:07:18.575] [file_logger] [info] BTC:[DecodeImageCollectionAtmoicTask.cpp:beforeRun:24] DecodeImageCollectionAtomicTask filePath C:\Users\13699\AppData\Local\JianyingPro\User Data\Cache\bytebench\691a8b4301c04ed231ec1c39a522f76c.png
+[2021-11-16 21:07:19.530] [file_logger] [debug] BTC:[CollectionManger.cpp:runTask:137] task run over
+[2021-11-16 21:07:19.530] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:82] client send msg all size: 807
+[2021-11-16 21:07:19.531] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:89] client send ret 807
+[2021-11-16 21:07:19.532] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:161] data length: 606
+[2021-11-16 21:07:19.532] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:165] first result str: id=lv_win_3_h264_hard_decode&data={
+	"base_task_key":	"hard_decode",
+	"version":	8,
+	"base_task_version":	2,
+	"id":	209,
+	"key":	"lv_win_3_h264_hard_decode",
+	"param":	{
+		"codec_type":	100,
+		"file":	"e736fe0562683360206303f992eb1b35.mp4",
+		"times":	1,
+		"when":	1
+	},
+	"extra_param":	{
+		"localfile":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\e736fe0562683360206303f992eb1b35.mp4",
+		"workspace":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\",
+		"gpu_index":	0
+	},
+	"result_key_list":	["message", "cost_time", "ret"],
+	"result":	{
+	}
+}
+[2021-11-16 21:07:19.532] [file_logger] [debug] BTC:[IPCClient.cpp:receiveHandle:96]  client receive msg size: 606
+[2021-11-16 21:07:19.532] [file_logger] [debug] BTC:[BTCEngineController.cpp:customEvent:111] BTCEngineController customEvent msg size: 606
+[2021-11-16 21:07:19.532] [file_logger] [info] BTC:[BTCEngineController.cpp:runTask:56] run task: lv_win_3_h264_hard_decode
+[2021-11-16 21:07:19.551] [file_logger] [warning] BTC:[MediaCompetenceCenter.cpp:hwDecodeVideo:218] begin use d3d11va 0 to hard decode
+[2021-11-16 21:07:20.120] [file_logger] [debug] BTC:[CollectionManger.cpp:runTask:137] task run over
+[2021-11-16 21:07:20.120] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:82] client send msg all size: 907
+[2021-11-16 21:07:20.121] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:89] client send ret 907
+[2021-11-16 21:07:20.121] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:161] data length: 1071
+[2021-11-16 21:07:20.121] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:165] first result str: id=lv_win_3_h264_hard_encode&data={
+	"base_task_key":	"hard_encode",
+	"version":	8,
+	"base_task_version":	7,
+	"id":	208,
+	"key":	"lv_win_3_h264_hard_encode",
+	"param":	{
+		"height":	1080,
+		"frame_interval":	10,
+		"bit_mode":	0,
+		"bit_rate":	14848000,
+		"codec_type":	100,
+		"times":	1,
+		"color_formate":	19,
+		"file":	"e736fe0562683360206303f992eb1b35.mp4",
+		"frame_rate":	30,
+		"profile":	200,
+		"when":	1,
+		"width":	1920
+	},
+	"extra_param":	{
+		"localfile":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\e736fe0562683360206303f992eb1b35.mp4",
+		"workspace":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\",
+		"gpu_index":	0
+	},
+	"result_key_list":	["variable_bit_rate_before", "profile", "variable_bit_rate_after", "request_IFrame_i_interval_time", "message", "cost_time", "request_IFrame_r", "mediaCodec_init_cost", "request_IFrame_i", "first_frame_cost", "average_bit_rate", "hoard_frame", "avera
+[2021-11-16 21:07:20.121] [file_logger] [debug] BTC:[IPCClient.cpp:receiveHandle:96]  client receive msg size: 1071
+[2021-11-16 21:07:20.121] [file_logger] [debug] BTC:[BTCEngineController.cpp:customEvent:111] BTCEngineController customEvent msg size: 1071
+[2021-11-16 21:07:20.121] [file_logger] [info] BTC:[BTCEngineController.cpp:runTask:56] run task: lv_win_3_h264_hard_encode
+[2021-11-16 21:07:20.124] [file_logger] [warning] BTC:[MediaCompetenceCenter.cpp:hwDecodeVideo:218] begin use d3d11va 0 to hard decode
+[2021-11-16 21:07:26.137] [file_logger] [error] BTC:[MediaCompetenceCenter.cpp:hwEncodeVideo:570] eof
+[2021-11-16 21:07:26.206] [file_logger] [debug] BTC:[CollectionManger.cpp:runTask:137] task run over
+[2021-11-16 21:07:26.206] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:82] client send msg all size: 1373
+[2021-11-16 21:07:26.206] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:89] client send ret 1373
+[2021-11-16 21:07:26.206] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:161] data length: 290
+[2021-11-16 21:07:26.206] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:165] first result str: id=lv_win_3_device_info&data={
+	"base_task_key":	"device_info",
+	"version":	8,
+	"base_task_version":	4,
+	"id":	207,
+	"key":	"lv_win_3_device_info",
+	"param":	{
+		"times":	1,
+		"when":	1
+	},
+	"extra_param":	{
+	},
+	"result_key_list":	["cost_time", "message", "ret", "info"],
+	"result":	{
+	}
+}
+[2021-11-16 21:07:26.206] [file_logger] [debug] BTC:[IPCClient.cpp:receiveHandle:96]  client receive msg size: 290
+[2021-11-16 21:07:26.206] [file_logger] [debug] BTC:[BTCEngineController.cpp:customEvent:111] BTCEngineController customEvent msg size: 290
+[2021-11-16 21:07:26.206] [file_logger] [info] BTC:[BTCEngineController.cpp:runTask:56] run task: lv_win_3_device_info
+[2021-11-16 21:07:28.864] [file_logger] [debug] BTC:[CollectionManger.cpp:runTask:137] task run over
+[2021-11-16 21:07:28.864] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:82] client send msg all size: 2378
+[2021-11-16 21:07:28.864] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:89] client send ret 2378
+[2021-11-16 21:07:28.865] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:161] data length: 652
+[2021-11-16 21:07:28.865] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:165] first result str: id=lv_win_3_h264_hard_decode&data={
+	"base_task_key":	"hard_decode",
+	"version":	8,
+	"base_task_version":	2,
+	"id":	209,
+	"key":	"lv_win_3_h264_hard_decode",
+	"param":	{
+		"codec_type":	100,
+		"file":	"e736fe0562683360206303f992eb1b35.mp4",
+		"times":	1,
+		"when":	1
+	},
+	"extra_param":	{
+		"workspace":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\",
+		"localfile":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\e736fe0562683360206303f992eb1b35.mp4",
+		"gpu_index":	1,
+		"custom_key":	"lv_win_3_h264_hard_decode1"
+	},
+	"result_key_list":	["ret", "cost_time", "message"],
+	"result":	{
+	}
+}
+[2021-11-16 21:07:28.865] [file_logger] [debug] BTC:[IPCClient.cpp:receiveHandle:96]  client receive msg size: 652
+[2021-11-16 21:07:28.865] [file_logger] [debug] BTC:[BTCEngineController.cpp:customEvent:111] BTCEngineController customEvent msg size: 652
+[2021-11-16 21:07:28.865] [file_logger] [info] BTC:[BTCEngineController.cpp:runTask:56] run task: lv_win_3_h264_hard_decode
+[2021-11-16 21:07:28.865] [file_logger] [warning] BTC:[MediaCompetenceCenter.cpp:hwDecodeVideo:218] begin use d3d11va 1 to hard decode
+[2021-11-16 21:07:29.456] [file_logger] [debug] BTC:[CollectionManger.cpp:runTask:137] task run over
+[2021-11-16 21:07:29.456] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:82] client send msg all size: 953
+[2021-11-16 21:07:29.457] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:89] client send ret 953
+[2021-11-16 21:07:29.457] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:161] data length: 1117
+[2021-11-16 21:07:29.457] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:165] first result str: id=lv_win_3_h264_hard_encode&data={
+	"base_task_key":	"hard_encode",
+	"version":	8,
+	"base_task_version":	7,
+	"id":	208,
+	"key":	"lv_win_3_h264_hard_encode",
+	"param":	{
+		"bit_mode":	0,
+		"frame_interval":	10,
+		"height":	1080,
+		"bit_rate":	14848000,
+		"codec_type":	100,
+		"times":	1,
+		"color_formate":	19,
+		"file":	"e736fe0562683360206303f992eb1b35.mp4",
+		"frame_rate":	30,
+		"profile":	200,
+		"when":	1,
+		"width":	1920
+	},
+	"extra_param":	{
+		"workspace":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\",
+		"localfile":	"C:\\Users\\13699\\AppData\\Local\\JianyingPro\\User Data\\Cache\\bytebench\\e736fe0562683360206303f992eb1b35.mp4",
+		"gpu_index":	1,
+		"custom_key":	"lv_win_3_h264_hard_encode1"
+	},
+	"result_key_list":	["profile", "variable_bit_rate_before", "variable_bit_rate_after", "request_IFrame_i_interval_time", "message", "cost_time", "mediaCodec_init_cost", "request_IFrame_r", "request_IFrame_i", "first_frame_co
+[2021-11-16 21:07:29.457] [file_logger] [debug] BTC:[IPCClient.cpp:receiveHandle:96]  client receive msg size: 1117
+[2021-11-16 21:07:29.457] [file_logger] [debug] BTC:[BTCEngineController.cpp:customEvent:111] BTCEngineController customEvent msg size: 1117
+[2021-11-16 21:07:29.457] [file_logger] [info] BTC:[BTCEngineController.cpp:runTask:56] run task: lv_win_3_h264_hard_encode
+[2021-11-16 21:07:29.457] [file_logger] [warning] BTC:[MediaCompetenceCenter.cpp:hwDecodeVideo:218] begin use d3d11va 1 to hard decode
+[2021-11-16 21:07:38.649] [file_logger] [error] BTC:[MediaCompetenceCenter.cpp:hwEncodeVideo:570] eof
+[2021-11-16 21:07:38.685] [file_logger] [debug] BTC:[CollectionManger.cpp:runTask:137] task run over
+[2021-11-16 21:07:38.685] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:82] client send msg all size: 1419
+[2021-11-16 21:07:38.685] [file_logger] [debug] BTC:[IPCClient.cpp:sendMsg:89] client send ret 1419
+[2021-11-16 21:07:38.689] [file_logger] [error] BTC:[IPCClient.cpp:receiveListen:155] lm length <0
+[2021-11-16 21:07:38.689] [file_logger] [debug] BTC:[IPCClient.cpp:receiveListen:202] client receiveListen exit
+[2021-11-16 21:07:38.689] [file_logger] [debug] BTC:[CollectionByteBench.cpp:destroy:103] collection destroy
